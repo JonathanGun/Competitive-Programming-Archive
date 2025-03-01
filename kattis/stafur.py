@@ -1,0 +1,1 @@
+print("Jebb" if input() in ['A', 'E', 'I', 'O', 'U', 'Y'] else "Neibb")
