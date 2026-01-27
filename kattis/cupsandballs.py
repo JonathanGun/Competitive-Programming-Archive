@@ -14,7 +14,4 @@ if cur == g:
             print(i, end=" ")
     print()
 else:
-    if g == 1:
-        print(1, 2)
-    else:
-        print(1, g)
+    print(cur, g)

@@ -1,4 +1,6 @@
-from difflib import ndiff
-
-for x in ndiff(['asd'], ['asf']):
-    print(x)
+n = int(input())
+for i in range(n):
+    if i % 2 == 0:
+        print(input())
+    else:
+        input()
